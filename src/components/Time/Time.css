@@ -1,0 +1,18 @@
+.Time {
+  text-align: center;
+  padding: 16px;
+}
+
+.Time-title {
+  border-bottom: 4px solid;
+  padding: 8px;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.time-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
