@@ -2,20 +2,32 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
-      <nav>
-        <a href="#">
-          <img src="/imagens/fb.png" alt="" />
+    <footer className="footer">
+      <nav className="footer-social">
+        <a className="footer-social-link" href="#">
+          <img
+            className="footer-social-link__img"
+            src="/imagens/fb.png"
+            alt="logo do facebook"
+          />
         </a>
-        <a href="#">
-          <img src="/imagens/ig.png" alt="" />
+        <a className="footer-social-link" href="#">
+          <img
+            className="footer-social-link__img"
+            src="/imagens/ig.png"
+            alt="logo do instagram"
+          />
         </a>
-        <a href="#">
-          <img src="/imagens/tw.png" alt="" />
+        <a className="footer-social-link" href="#">
+          <img
+            className="footer-social-link__img"
+            src="/imagens/tw.png"
+            alt="logo do twitter"
+          />
         </a>
       </nav>
-      <img src="/imagens/logo.png" alt="" />
-      <p>Desenvolvido por MarchingBeagle</p>
+      <img className="footer-logo" src="/imagens/logo.png" alt="" />
+      <p className="footer-description">Desenvolvido por MarchingBeagle</p>
     </footer>
   );
 }
