@@ -2,7 +2,13 @@ import Card from "../Card";
 import "./Time.css";
 import hexToRgba from "hex-to-rgba";
 
-function Time({ colabInfo, deletarColab, changeTeamColor, time }) {
+function Time({
+  colabInfo,
+  deletarColab,
+  changeTeamColor,
+  time,
+  favoritarColab,
+}) {
   return (
     colabInfo.length > 0 && (
       <section
@@ -28,6 +34,8 @@ function Time({ colabInfo, deletarColab, changeTeamColor, time }) {
                 imagem={info.imagem}
                 cor={time.cor}
                 deletarColab={() => deletarColab(info.id)}
+                favoritarColab={() => favoritarColab(info.id)}
+                favorito={info.favorito}
               />
             );
           })}

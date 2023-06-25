@@ -52,6 +52,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[0].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -60,6 +61,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[0].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -68,6 +70,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[0].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -76,6 +79,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[0].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -84,6 +88,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[1].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -92,6 +97,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[1].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -100,6 +106,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[1].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -108,6 +115,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[1].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -116,6 +124,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[2].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -124,6 +133,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[2].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -132,6 +142,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[2].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -140,6 +151,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[2].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -148,6 +160,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[3].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -156,6 +169,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[3].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -164,6 +178,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[3].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -172,6 +187,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[3].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -180,6 +196,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[4].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -188,6 +205,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[4].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -196,6 +214,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[4].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -204,6 +223,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[4].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -212,6 +232,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg",
       time: timesArray[5].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -220,6 +241,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg",
       time: timesArray[5].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -228,6 +250,7 @@ function App() {
       imagem:
         "	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg",
       time: timesArray[5].nome,
+      favorito: false,
     },
     {
       id: uuidv4(),
@@ -236,6 +259,7 @@ function App() {
       imagem:
         "https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg",
       time: timesArray[5].nome,
+      favorito: false,
     },
   ];
 
@@ -245,8 +269,23 @@ function App() {
     setColab([...colab, newUser]);
   };
 
+  const addNewTeam = (newTeam) => {
+    setTimesArray([...timesArray, newTeam]);
+  };
+
   const deletarColab = (idColab) => {
     setColab(colab.filter((colab) => colab.id !== idColab));
+  };
+
+  const favoritarColab = (colabfavoritoId) => {
+    setColab(
+      colab.map((element) => {
+        if (element.id === colabfavoritoId) {
+          element.favorito = !element.favorito;
+        }
+        return element;
+      })
+    );
   };
 
   const changeTeamColor = (color, id) => {
@@ -265,7 +304,9 @@ function App() {
       <Banner />
       <Formulario
         timesArray={timesArray.map((time) => time.nome)}
-        onSubmitInfo={(newUser) => addNewUser(newUser)}
+        onSubmitInfoUser={(newUser) => addNewUser(newUser)}
+        onSubmitInfoTeam={(newTeam) => addNewTeam(newTeam)}
+        uuidv4={uuidv4}
       />
 
       {timesArray.map((time) => (
@@ -278,6 +319,7 @@ function App() {
           colabInfo={colab.filter((colab) => colab.time === time.nome)}
           deletarColab={(info) => deletarColab(info)}
           changeTeamColor={changeTeamColor}
+          favoritarColab={favoritarColab}
         />
       ))}
       <Footer />

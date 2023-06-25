@@ -1,7 +1,15 @@
 import "./Card.css";
-import { AiFillCloseCircle } from "react-icons/ai";
+import { AiFillCloseCircle, AiFillHeart } from "react-icons/ai";
 
-function Card({ imagem, nome, cargo, cor, deletarColab }) {
+function Card({
+  imagem,
+  nome,
+  cargo,
+  cor,
+  deletarColab,
+  favorito,
+  favoritarColab,
+}) {
   return (
     <div className="card">
       <AiFillCloseCircle
@@ -16,6 +24,11 @@ function Card({ imagem, nome, cargo, cor, deletarColab }) {
       <div className="footer">
         <h4 className="card-name">{nome}</h4>
         <h5 className="card-role">{cargo}</h5>
+        <AiFillHeart
+          color={`${favorito ? "red" : "gray"}`}
+          size={20}
+          onClick={favoritarColab}
+        />
       </div>
     </div>
   );
