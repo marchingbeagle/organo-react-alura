@@ -1,6 +1,8 @@
 .card {
   position: relative;
   width: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card .header {
@@ -20,17 +22,23 @@
   border-radius: 0px 0px 10px 10px;
   padding-top: 90px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
-.card .footer h4 {
+.card-name {
   color: #6278f7;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
   margin-bottom: 8px;
+  flex: 1;
 }
 
-.card .footer h5 {
+.card-role {
   font-size: 18px;
   line-height: 22px;
   color: #212121;
